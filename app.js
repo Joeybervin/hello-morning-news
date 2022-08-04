@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 /* app.use(express.static(path.join(__dirname, 'public'))); */
-app.use(express.static(path.join(__dirname, 'morningnews_1')));
+app.use(express.static(path.join(__dirname, 'helloMorningNews_frontend')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
